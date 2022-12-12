@@ -1,0 +1,23 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "^@src/(.*)$": "<rootDir>/../src/$1",
+    "^@jest.setup": "<rootDir>/../test/jest.setup",
+    "^@bootstrap/(.*)$": "<rootDir>/../src/bootstrap/$1",
+    "^@typings/(.*)$": "<rootDir>/../src/@typings/$1",
+    "^@config/(.*)$": "<rootDir>/../src/config/$1",
+    "^@modules/(.*)$": "<rootDir>/../src/modules/$1",
+    "^@shared/(.*)$": "<rootDir>/../src/shared/$1",
+    "^@decorators/(.*)$": "<rootDir>/../src/shared/decorators/$1",
+    "^@guards/(.*)$": "<rootDir>/../src/shared/guards/$1",
+    "^@interfaces/(.*)$": "<rootDir>/../src/shared/interfaces/$1",
+    "^@pipes/(.*)$": "<rootDir>/../src/shared/pipes/$1",
+    "^@utils/(.*)$": "<rootDir>/../src/shared/utils/$1"
+  }
+}

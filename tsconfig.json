@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "esModuleInterop": true,
+    "paths": {
+      "@src/*": ["src/*"],
+      "@jest.setup": ["test/jest.setup"],
+      "@bootstrap/*": ["src/bootstrap/*"],
+      "@typings/*": ["src/@typings/*"],
+      "@config/*": ["src/config/*"],
+      "@modules/*": ["src/modules/*"],
+      "@shared/*": ["src/shared/*"],
+      "@decorators/*": ["src/shared/decorators/*"],
+      "@guards/*": ["src/shared/guards/*"],
+      "@interfaces/*": ["src/shared/interfaces/*"],
+      "@pipes/*": ["src/shared/pipes/*"],
+      "@utils/*": ["src/shared/utils/*"]
+    }
+  }
+}
