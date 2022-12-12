@@ -1,10 +1,11 @@
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+  Nest.js V9 and mongoose code template  
 </p>
 
 ## Description
 
-backend codebase template with nestjs and mongoose
+REST API codebase template with nestjs and mongoose
 
 ## Installation
 
